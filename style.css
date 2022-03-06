@@ -1,8 +1,8 @@
-    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Work+Sans:wght@420&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Work+Sans:wght@420&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Poiret+One&family=Saira+Semi+Condensed:wght@200&display=swap');
 body,
 html {
-    margin: 2;
+    margin: 0;
     padding: 0;
 }
 
@@ -405,11 +405,10 @@ html {
         flex-direction: column;
         width: 100%;
         align-items: center;
-        pa
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
     .banner {
         padding-top: -48px;
         left: 65px;
@@ -481,6 +480,3 @@ html {
         width: 15px;
     }
 }
-
-.skills {
-    background-color: aliceblue;
