@@ -19,6 +19,11 @@ html {
     color: white;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .menubar {
     z-index: 1;
     background: rgba(0, 0, 0, 0.6);
@@ -302,7 +307,7 @@ html {
         font-size: 80px;
     }
     .banner p {
-        padding-left: 125px;
+        padding-left: 158px;
         font-size: 20px;
         margin-top: -80px;
     }
@@ -488,6 +493,8 @@ html {
     margin: 0px;
     padding: 0px;
     background-color: #202124;
-    display: flex;
-    align-items: center;
+}
+
+.title {
+    text-items: center;
 }
