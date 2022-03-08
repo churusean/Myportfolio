@@ -188,6 +188,48 @@ html {
     width: 20px;
 }
 
+#aboutme {
+    width: 100%;
+    height: 104vh;
+    background-color: #202124;
+}
+
+.title {
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Advent Pro', monospace;
+}
+
+.banner-2 {
+    width: 700px;
+    margin-top: -40px;
+    min-height: 430px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.me p {
+    padding: 10px 20px 0px 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Syne Mono', monospace;
+}
+
+.me span {
+    float: right;
+    font-size: 1.2rem;
+    font-family: 'Syne Mono', monospace;
+    color: white;
+}
+
+#skills {
+    height: 100vh;
+    width: 100%;
+}
+
 @media screen and (max-width:1242px) {
     .banner {
         position: absolute;
@@ -220,6 +262,9 @@ html {
         to {
             width: 550px;
         }
+    }
+    #aboutme {
+        height: 120vh;
     }
 }
 
@@ -362,7 +407,7 @@ html {
     }
     .myface {
         position: absolute;
-        right: 270px;
+        right: 297px;
         top: 100px;
     }
     .myface img {
@@ -414,12 +459,24 @@ html {
         width: 100%;
         align-items: center;
     }
+    .banner-2 {
+        width: 100%;
+    }
+    .title {
+        font-size: 2.7rem;
+    }
+    .me span {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 425px) {
     .banner {
         padding-top: -48px;
         left: 65px;
+    }
+    .menubar {
+        height: 70px;
     }
     .menubar.active {
         height: 305px;
@@ -487,45 +544,19 @@ html {
         height: 15px;
         width: 15px;
     }
-}
-
-#aboutme {
-    width: 100%;
-    height: 104vh;
-    background-color: #202124;
-}
-
-.title {
-    text-align: center;
-    margin-top: 90px;
-    color: white;
-    font-size: 4rem;
-    font-family: 'Advent Pro', monospace;
-}
-
-.banner-2 {
-    width: 700px;
-    margin-top: -40px;
-    min-height: 430px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.me {
-    border-right: 4px solid #202124;
-}
-
-.me p {
-    padding: 10px 20px 0px 20px;
-    color: white;
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: 'Syne Mono', monospace;
-}
-
-.me span {
-    float: right;
-    font-size: 1.2rem;
-    font-family: 'Syne Mono', monospace;
-    color: white;
+    #aboutme {
+        height: 100vh;
+    }
+    .title {
+        font-size: 2.7rem;
+    }
+    .banner-2 {
+        width: 100%;
+    }
+    .me p {
+        font-size: 1.3rem;
+    }
+    .me span {
+        margin-right: 20px;
+    }
 }
