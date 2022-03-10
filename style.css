@@ -372,7 +372,6 @@ html {
     font-size: 2.8rem;
     font-family: 'Abel', sans-serif;
     margin-top: 10px;
-    text-align: center;
 }
 
 .details {
@@ -460,6 +459,114 @@ html {
     background-color: white;
 }
 
+#atthemoment {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/kofe-kruzhka-chashka-stol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titleatm {
+    text-align: center;
+    margin-top: 75px;
+    color: #121213;
+    font-size: 3.5rem;
+    font-family: 'Advent Pro', monospace;
+    filter: drop-shadow(6px 5px 20px #202124);
+}
+
+.atmcontainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 460px;
+    margin-top: -60px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work {
+    width: 370px;
+    height: 460px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 5px solid#202124;
+}
+
+.school,
+.work {
+    background-color: white;
+}
+
+.school {
+    width: 370px;
+    height: 460px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 5px solid #202124;
+}
+
+.heading {
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    width: 100%;
+    background-color: #202124;
+}
+
+.titlework {
+    text-align: center;
+    font-size: 2.0rem;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detailprob {
+    text-align: start;
+    color: black;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Dosis', monospace;
+}
+
+.atmcase {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 6px solid #202124;
+}
+
+.atmcase img {
+    filter: blur(10px);
+    height: auto;
+    width: 210px;
+}
+
+.sccase {
+    width: fit-content;
+    height: fit-content;
+    margin-top: -30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sccase img {
+    height: auto;
+    width: 240px;
+}
+
+.list {
+    margin-top: -40px;
+}
+
 @media screen and (max-width:1242px) {
     .banner {
         position: absolute;
@@ -534,6 +641,9 @@ html {
             width: 550px;
         }
     }
+    .atmcontainer {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:786px) {
@@ -595,6 +705,10 @@ html {
     .navigation-manual,
     .navigation-auto {
         width: 686px;
+    }
+    .atmcontainer {
+        width: 100%;
+        justify-content: space-around;
     }
 }
 
@@ -669,6 +783,10 @@ html {
     }
     .details {
         font-size: 1.3rem;
+    }
+    .school,
+    .work {
+        width: 309px;
     }
 }
 
@@ -785,5 +903,14 @@ html {
     }
     .details {
         font-size: 1.2rem;
+    }
+    #atthemoment {
+        height: 173vh;
+    }
+    .school {
+        margin-top: 15px;
+    }
+    .atmcontainer {
+        width: 85%;
     }
 }
