@@ -280,6 +280,14 @@ html {
     font-family: 'Smooch Sans', monospace;
 }
 
+.divtitlep {
+    text-align: center;
+    margin-top: 2px;
+    color: #202124;
+    font-size: 1.7rem;
+    font-family: 'Smooch Sans', monospace;
+}
+
 .para {
     text-align: center;
     color: #202124;
@@ -406,6 +414,18 @@ html {
         to {
             width: 550px;
         }
+    }
+    #skills {
+        height: 166vh;
+    }
+    .skillcontainer {
+        width: 90%;
+    }
+    .titleskills {
+        font-size: 2.9rem;
+    }
+    .box {
+        margin-bottom: 30px;
     }
 }
 
@@ -554,7 +574,7 @@ html {
         margin-right: 20px;
     }
     #skills {
-        height: 296vh;
+        height: 300vh;
     }
     .titleskills {
         font-size: 2.7rem;
