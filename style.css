@@ -201,8 +201,8 @@ html {
 }
 
 .banner-2 {
-    width: 700px;
-    margin-top: -40px;
+    width: 800px;
+    margin-top: -65px;
     min-height: 430px;
     margin-right: auto;
     margin-left: auto;
@@ -212,7 +212,7 @@ html {
     padding: 10px 20px 0px 20px;
     color: white;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: 'Syne Mono', monospace;
 }
 
@@ -893,6 +893,9 @@ footer {
             width: 550px;
         }
     }
+    .banner-2 {
+        width: 729px;
+    }
     #skills {
         height: 166vh;
     }
@@ -1095,12 +1098,14 @@ footer {
     }
     .banner-2 {
         width: 100%;
+        margin-top: 7px;
     }
     .me p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .me span {
         margin-right: 20px;
+        font-size: 0.9;
     }
     #skills {
         height: 300vh;
