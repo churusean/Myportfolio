@@ -59,3 +59,12 @@ setInterval(function() {
         counter = 1;
     }
 }, 5000);
+
+var counter = 1;
+setInterval(function() {
+    document.getElementById('radioc' + counter).checked = true;
+    counter++
+    if (counter > 5) {
+        counter = 1;
+    }
+}, 5000);

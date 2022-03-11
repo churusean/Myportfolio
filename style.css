@@ -90,8 +90,7 @@ html {
     transition: transform 3s;
 }
 
-.navbar-link:hover,
-.select {
+.navbar-link:hover {
     transform: scale(1.2);
     color: aqua;
 }
@@ -313,7 +312,7 @@ html {
     color: black;
     font-size: 3.5rem;
     font-family: 'Advent Pro', monospace;
-    filter: drop-shadow(6px 5px 20px #202124);
+    filter: drop-shadow(10px 10px 20px white);
 }
 
 .slider {
@@ -359,7 +358,6 @@ html {
     text-decoration: none;
     color: black;
     font-family: 'Work sans', sans-serif;
-    transition: 2s;
     text-align: center;
 }
 
@@ -461,8 +459,8 @@ html {
 
 #atthemoment {
     width: 100%;
-    height: 100vh;
-    background-image: url(images/kofe-kruzhka-chashka-stol.jpg);
+    height: 105vh;
+    background-image: url(images/tech_design_print_by_siulzz_dcofqeo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,7 +471,7 @@ html {
     color: #121213;
     font-size: 3.5rem;
     font-family: 'Advent Pro', monospace;
-    filter: drop-shadow(6px 5px 20px #202124);
+    filter: drop-shadow(6px 5px 20px white);
 }
 
 .atmcontainer {
@@ -493,6 +491,7 @@ html {
     height: 460px;
     border-radius: 10px 10px 0 0;
     border-bottom: 5px solid#202124;
+    filter: drop-shadow(10px 10px 50px white);
 }
 
 .school,
@@ -505,6 +504,7 @@ html {
     height: 460px;
     border-radius: 10px 10px 0 0;
     border-bottom: 5px solid #202124;
+    filter: drop-shadow(10px 10px 50px white);
 }
 
 .heading {
@@ -545,7 +545,7 @@ table {
 }
 
 .atmcase img {
-    filter: blur(10px);
+    filter: blur(3px);
     height: auto;
     width: 210px;
 }
@@ -565,6 +565,209 @@ table {
 
 .list {
     margin-top: -40px;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/four.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titlecontact {
+    text-align: center;
+    margin-top: 75px;
+    color: #121213;
+    font-size: 3.5rem;
+    font-family: 'Advent Pro', monospace;
+    filter: drop-shadow(6px 5px 20px white);
+}
+
+.sliderc {
+    margin-top: -50px;
+    width: 124vh;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slidesc {
+    width: 500%;
+    height: 200px;
+    display: flex;
+}
+
+.slidesc input {
+    display: none;
+}
+
+.slidec {
+    width: 20%;
+    transition: 2s;
+}
+
+.navigation-manualc {
+    position: absolute;
+    width: 800px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btnc {
+    border: 2px solid #333d45;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btnc:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btnc:hover {
+    background-color: #333d45;
+}
+
+#radioc1:checked~.first {
+    margin-left: 0;
+}
+
+#radioc2:checked~.first {
+    margin-left: -20%;
+}
+
+#radioc3:checked~.first {
+    margin-left: -40%;
+}
+
+#radioc4:checked~.first {
+    margin-left: -60%;
+}
+
+#radioc5:checked~.first {
+    margin-left: -80%;
+}
+
+.navigation-autoc {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.navigation-autoc div {
+    border: 2px solid #333d45;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-autoc div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radioc1:checked~.navigation-autoc .auto-btnc1 {
+    background-color: #333d45;
+}
+
+#radioc2:checked~.navigation-autoc .auto-btnc2 {
+    background-color: #333d45;
+}
+
+#radioc3:checked~.navigation-autoc .auto-btnc3 {
+    background-color: #333d45;
+}
+
+#radioc4:checked~.navigation-autoc .auto-btnc4 {
+    background-color: #333d45;
+}
+
+#radioc5:checked~.navigation-autoc .auto-btnc5 {
+    background-color: #333d45;
+}
+
+.logpic {
+    width: fit-content;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logpic img {
+    height: auto;
+    width: 50px;
+}
+
+.detailcont {
+    text-align: center;
+    color: #202124;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Dosis', monospace;
+    filter: drop-shadow(3px 4px 5px white);
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 68px;
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 140px;
+    display: flex;
+    filter: drop-shadow(0 -10px 20px rgb(108, 187, 187));
+}
+
+.sidebar3 {
+    width: auto;
+    flex: 4;
+    text-align: center;
+    padding-top: 110px;
+    height: 100%;
+    color: antiquewhite;
+}
+
+.tab1 {
+    width: auto;
+    flex: 2;
+    display: flexbox;
+    height: 100%;
+}
+
+.magnitude {
+    flex: 1;
+    height: 50%;
+    padding-left: 40px;
+    padding-top: 29px;
+}
+
+.magnitude img {
+    height: auto;
+    width: 180px;
+}
+
+.sadiated {
+    flex: 1;
+    height: 50%;
+    padding-left: 60px;
+    padding-top: 29px;
+}
+
+.sadiated img {
+    height: auto;
+    width: 140px;
+}
+
+.footertext {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+    margin-top: -10px;
 }
 
 @media screen and (max-width:1242px) {
@@ -605,6 +808,9 @@ table {
     }
     #skills {
         height: 120vh;
+    }
+    footer {
+        margin-top: 87px;
     }
 }
 
@@ -710,6 +916,16 @@ table {
         width: 100%;
         justify-content: space-around;
     }
+    .sliderc {
+        width: 117vh;
+    }
+    .footertext {
+        font-size: 1.1rem;
+    }
+    .navigation-autoc,
+    .navigation-manualc {
+        width: 764px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -786,7 +1002,14 @@ table {
     }
     .school,
     .work {
-        width: 309px;
+        width: 323px;
+    }
+    .sliderc {
+        width: 102vh;
+    }
+    .navigation-autoc,
+    .navigation-manualc {
+        width: 670px;
     }
 }
 
@@ -912,5 +1135,18 @@ table {
     }
     .atmcontainer {
         width: 85%;
+    }
+    .sliderc {
+        width: 45vh;
+    }
+    .navigation-autoc,
+    .navigation-manualc {
+        width: 298px;
+    }
+    .footertext {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: -39px;
     }
 }
