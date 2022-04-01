@@ -770,7 +770,7 @@ footer {
     margin-top: -10px;
 }
 
-@media screen and (max-width:1242px) {
+@media only screen and (max-width:1242px) {
     .banner {
         position: absolute;
         left: 80px;
@@ -814,7 +814,7 @@ footer {
     }
 }
 
-@media screen and (max-width:1026px) {
+@media only screen and (max-width:1026px) {
     .banner {
         position: absolute;
         left: 80px;
@@ -852,7 +852,7 @@ footer {
     }
 }
 
-@media screen and (max-width:786px) {
+@media only screen and (max-width:786px) {
     .bar {
         margin-right: 38px;
     }
@@ -931,7 +931,7 @@ footer {
     }
 }
 
-@media screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
     .toggle-button {
         display: flex;
     }
@@ -1016,7 +1016,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     .banner {
         padding-top: -48px;
         left: 65px;
