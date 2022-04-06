@@ -359,6 +359,7 @@ html {
     color: black;
     font-family: 'Work sans', sans-serif;
     text-align: center;
+    transition: font-size 2s;
 }
 
 .project-link:hover {
@@ -770,88 +771,6 @@ footer {
     margin-top: -10px;
 }
 
-@media only screen and (max-width:1242px) {
-    .banner {
-        position: absolute;
-        left: 80px;
-        top: 180px;
-    }
-    .banner h1 {
-        font-size: 70px;
-    }
-    .banner p {
-        font-size: 20px;
-        margin-top: -70px;
-    }
-    .icon-row {
-        padding-top: 50px;
-    }
-    .myface {
-        position: absolute;
-        right: 142px;
-        top: 142px;
-    }
-    .myface img {
-        height: auto;
-        width: 350px;
-    }
-    @keyframes typing {
-        from {
-            width: 0px;
-        }
-        to {
-            width: 550px;
-        }
-    }
-    #aboutme {
-        height: 120vh;
-    }
-    #skills {
-        height: 120vh;
-    }
-    footer {
-        margin-top: 87px;
-    }
-}
-
-@media only screen and (max-width:1026px) {
-    .banner {
-        position: absolute;
-        left: 80px;
-        top: 180px;
-    }
-    .banner h1 {
-        font-size: 70px;
-    }
-    .banner p {
-        font-size: 20px;
-        margin-top: -70px;
-    }
-    .icon-row {
-        padding-top: 50px;
-    }
-    .myface {
-        position: absolute;
-        right: 70px;
-        top: 180px;
-    }
-    .myface img {
-        height: auto;
-        width: 250px;
-    }
-    @keyframes typing {
-        from {
-            width: 0px;
-        }
-        to {
-            width: 550px;
-        }
-    }
-    .atmcontainer {
-        width: 80%;
-    }
-}
-
 @media only screen and (max-width:786px) {
     .bar {
         margin-right: 38px;
@@ -862,7 +781,7 @@ footer {
     .banner {
         position: absolute;
         left: 100px;
-        top: 250px;
+        top: 405px;
     }
     .banner h1 {
         font-size: 4.3rem;
@@ -879,7 +798,7 @@ footer {
     .myface {
         position: absolute;
         right: 297px;
-        top: 100px;
+        top: 215px;
     }
     .myface img {
         height: auto;
@@ -897,7 +816,7 @@ footer {
         width: 729px;
     }
     #skills {
-        height: 166vh;
+        height: 113vh;
     }
     .skillcontainer {
         width: 90%;
@@ -908,19 +827,34 @@ footer {
     .box {
         margin-bottom: 30px;
     }
+    #projects {
+        height: 100vh;
+    }
+    .titleprojects {
+        margin-top: 100px;
+    }
     .slider {
-        width: 105vh;
+        width: 68vh;
+        margin-top: 100px;
     }
     .navigation-manual,
     .navigation-auto {
-        width: 686px;
+        width: 640px;
+    }
+    .titleatm {
+        margin-top: 123px;
     }
     .atmcontainer {
         width: 100%;
         justify-content: space-around;
+        margin-top: 100px;
+    }
+    .titlecontact {
+        margin-top: 143px;
     }
     .sliderc {
-        width: 117vh;
+        width: 81vh;
+        margin-top: 140px;
     }
     .footertext {
         font-size: 1.1rem;
@@ -928,6 +862,9 @@ footer {
     .navigation-autoc,
     .navigation-manualc {
         width: 764px;
+    }
+    footer {
+        margin-top: 182px;
     }
 }
 
@@ -946,9 +883,7 @@ footer {
         right: 250px;
     }
     .banner {
-        position: absolute;
-        left: 80px;
-        top: 250px;
+        left: 70px;
     }
     .banner p {
         padding-left: 110px;
@@ -976,7 +911,10 @@ footer {
         margin-right: 20px;
     }
     #skills {
-        height: 166vh;
+        height: 113vh;
+    }
+    .skillcontainer {
+        margin-top: 8px;
     }
     .titleskills {
         font-size: 2.7rem;
@@ -984,8 +922,11 @@ footer {
     .box {
         margin-bottom: 30px;
     }
+    #projects {
+        height: 100vh;
+    }
     .slider {
-        width: 93vh;
+        width: 63vh;
     }
     .projectcase img {
         width: 310;
@@ -1008,7 +949,7 @@ footer {
         width: 323px;
     }
     .sliderc {
-        width: 102vh;
+        width: 70vh;
     }
     .navigation-autoc,
     .navigation-manualc {
@@ -1018,8 +959,8 @@ footer {
 
 @media only screen and (max-width: 425px) {
     .banner {
-        padding-top: -48px;
-        left: 65px;
+        padding-top: 61px;
+        left: 61px;
     }
     .menubar {
         height: 70px;
@@ -1055,7 +996,11 @@ footer {
     .banner p {
         font-size: 14px;
         padding-left: 30px;
-        padding-top: 25px;
+        padding-top: 31px;
+    }
+    .myface {
+        margin-top: 100px;
+        left: 90px;
     }
     .myface {
         left: 130px;
@@ -1108,7 +1053,7 @@ footer {
         font-size: 0.9;
     }
     #skills {
-        height: 300vh;
+        height: 212vh;
     }
     .titleskills {
         font-size: 2.7rem;
@@ -1117,7 +1062,7 @@ footer {
         margin-bottom: 30px;
     }
     .slider {
-        width: 53vh;
+        width: 32vh;
     }
     .titleprob {
         font-size: 2rem;
@@ -1127,13 +1072,19 @@ footer {
     }
     .navigation-auto,
     .navigation-manual {
-        width: 347px;
+        width: 320px;
     }
     .details {
         font-size: 1.2rem;
     }
+    .projectcase {
+        border-color: black;
+    }
+    .projectcase img {
+        width: 220px;
+    }
     #atthemoment {
-        height: 173vh;
+        height: 135vh;
     }
     .school {
         margin-top: 15px;
@@ -1142,11 +1093,166 @@ footer {
         width: 85%;
     }
     .sliderc {
-        width: 45vh;
+        width: 37vh;
     }
     .navigation-autoc,
     .navigation-manualc {
-        width: 298px;
+        width: 380px;
+    }
+    .footertext {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: -39px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menubar {
+        height: 70px;
+    }
+    .banner {
+        padding-top: 61px;
+        left: 35px;
+    }
+    .myface {
+        margin-top: 103px;
+        left: 108px;
+    }
+    .menubar.active {
+        height: 305px;
+    }
+    .logo img {
+        height: auto;
+        width: 40px;
+    }
+    .toggle-button {
+        top: 20px;
+    }
+    .bar {
+        margin-right: 10px;
+    }
+    .navbar-link {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .banner h1 {
+        font-size: 2.3rem;
+    }
+    @keyframes typing {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 290px;
+        }
+    }
+    .myface {
+        margin-top: 100px;
+        left: 90px;
+    }
+    .myface img {
+        width: 150px;
+    }
+    .icon-row {
+        margin-left: 35px;
+    }
+    .icon-row img {
+        margin-top: 28px;
+    }
+    .fb {
+        height: 15px;
+        width: 15px;
+    }
+    .liin {
+        height: 15px;
+        width: 15px;
+    }
+    .ig {
+        height: 15px;
+        width: 15px;
+    }
+    .tweet {
+        height: 15px;
+        width: 15px;
+    }
+    .chat {
+        height: 15px;
+        width: 15px;
+    }
+    #aboutme {
+        height: 100vh;
+    }
+    .title {
+        font-size: 2.7rem;
+    }
+    .banner-2 {
+        width: 100%;
+        margin-top: 7px;
+    }
+    .me p {
+        font-size: 1.1rem;
+    }
+    .me span {
+        margin-right: 20px;
+        font-size: 0.9rem;
+    }
+    #skills {
+        height: 219vh;
+    }
+    .titleskills {
+        font-size: 2.7rem;
+    }
+    .box {
+        margin-bottom: 30px;
+    }
+    .titleprojects {
+        font-size: 3rem;
+    }
+    .slider {
+        width: 26vh;
+    }
+    .titleprob {
+        font-size: 1.7rem;
+    }
+    .nothing {
+        font-size: 2rem;
+    }
+    .navigation-auto,
+    .navigation-manual {
+        width: 255px;
+    }
+    .details {
+        font-size: 1.2rem;
+    }
+    #atthemoment {
+        height: 148vh;
+    }
+    .school {
+        margin-top: 15px;
+    }
+    .atmcontainer {
+        width: 85%;
+    }
+    .school,
+    .work {
+        width: 268px;
+    }
+    .sccase img {
+        height: auto;
+        width: 205px;
+    }
+    .sliderc {
+        width: 20vh;
+        height: 206px;
+    }
+    .navigation-autoc,
+    .navigation-manualc {
+        width: 208px;
+        margin-top: 270px;
+    }
+    footer {
+        margin-top: 155px;
     }
     .footertext {
         margin-left: 10px;
